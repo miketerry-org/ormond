@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "ormond",
+  "version": "0.0.1",
+  "description": "Fast & flexible testingg library used for test driven development (TDD)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miketerry-org/ormond.git"
+  },
+  "keywords": [
+    "TDD",
+    "unit",
+    "test",
+    "test",
+    "ing",
+    "driven",
+    "development",
+    "framework"
+  ],
+  "author": "Mike Terry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miketerry-org/ormond/issues"
+  },
+  "homepage": "https://github.com/miketerry-org/ormond#readme"
+}
