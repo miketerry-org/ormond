@@ -1,11 +1,14 @@
 {
   "type": "module",
-  "name": "ormond",
-  "version": "0.0.1",
-  "description": "Fast & flexible testingg library used for test driven development (TDD)",
+  "name": "ormond-tdd",
+  "version": "0.1.0",
+  "description": "Ormond: Fast & flexible testing library used for test driven development (TDD)",
   "main": "index.js",
+  "bin": {
+    "ormond": "./index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +18,6 @@
     "TDD",
     "unit",
     "test",
-    "test",
-    "ing",
     "driven",
     "development",
     "framework"
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/miketerry-org/ormond/issues"
   },
-  "homepage": "https://github.com/miketerry-org/ormond#readme"
+  "homepage": "https://github.com/miketerry-org/ormond#readme",
+  "dependencies": {
+    "minimatch": "^10.0.3"
+  }
 }

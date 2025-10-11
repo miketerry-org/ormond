@@ -1,0 +1,13 @@
+{
+  "watchDir": ".",
+  "includeDirMask": [
+    "test"
+  ],
+  "includeFileMask": [
+    "*.test.js",
+    "*.test.ts",
+    "*.test.mjs"
+  ],
+  "excludeDirMask": [],
+  "excludeFileMask": []
+}

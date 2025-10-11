@@ -2,7 +2,5 @@
 .env
 .git
 node_modules
-*.env
-*.key
-_tenants/*.env
+.env
 node_modules/
