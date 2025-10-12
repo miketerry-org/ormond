@@ -1,13 +1,6 @@
 {
   "watchDir": ".",
-  "includeDirMask": [
-    "test"
-  ],
-  "includeFileMask": [
-    "*.test.js",
-    "*.test.ts",
-    "*.test.mjs"
-  ],
-  "excludeDirMask": [],
-  "excludeFileMask": []
+  "searchDirs": ["test"],
+  "endsWith": [".test.js", ".test.ts", ".test.mjs"],
+  "excludeDirs": ["node_modules", ".git"]
 }

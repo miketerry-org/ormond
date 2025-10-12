@@ -1,4 +1,4 @@
-// numbers.test.js
+// integers.test.js
 
 describe("Numbers - Basic Testing", () => {
   it("should confirm integers are equal", () => {
