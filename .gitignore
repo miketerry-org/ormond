@@ -1,8 +1,5 @@
 .ds_store
 .env
 .git
-node_modules
-.env
 node_modules/
-Test.json
-test.log
+test-logs/

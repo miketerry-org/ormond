@@ -1,8 +1,8 @@
 {
   "type": "module",
   "name": "ormond-tdd",
-  "version": "0.1.0",
-  "description": "Ormond: Fast & flexible testing library used for test driven development (TDD)",
+  "version": "0.5.0",
+  "description": "Ormond: Fast & flexible testing library used for test & behavior driven development (TDD/BDD)",
   "main": "index.js",
   "bin": {
     "ormond": "./index.js"
@@ -16,8 +16,10 @@
   },
   "keywords": [
     "TDD",
+    "BDD",
     "unit",
     "test",
+    "behavior",
     "driven",
     "development",
     "framework"
@@ -27,8 +29,5 @@
   "bugs": {
     "url": "https://github.com/miketerry-org/ormond/issues"
   },
-  "homepage": "https://github.com/miketerry-org/ormond#readme",
-  "dependencies": {
-    "minimatch": "^10.0.3"
-  }
+  "homepage": "https://github.com/miketerry-org/ormond#readme"
 }
