@@ -1,11 +1,11 @@
 {
   "type": "module",
   "name": "ormond-tdd",
-  "version": "0.6.0",
+  "version": "0.6.5",
   "description": "Ormond: Fast & flexible testing library used for test & behavior driven development (TDD/BDD)",
   "main": "index.js",
   "bin": {
-    "ormond": "./index.js"
+    "ormond": "index.js"
   },
   "scripts": {
     "test": "node index.js --watch"

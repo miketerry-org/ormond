@@ -5,6 +5,6 @@
 .npmignore
 docs/
 node_modules/
-package-lock.json
 test/
+Test-logs/
 Todo.md
