@@ -1,20 +1,21 @@
 {
   "type": "module",
   "name": "ormond-tdd",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Ormond: Fast & flexible testing library used for test & behavior driven development (TDD/BDD)",
   "main": "index.js",
   "bin": {
     "ormond": "./index.js"
   },
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miketerry-org/ormond.git"
   },
   "keywords": [
+    "ormond",
     "TDD",
     "BDD",
     "unit",
@@ -29,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/miketerry-org/ormond/issues"
   },
-  "homepage": "https://github.com/miketerry-org/ormond#readme"
+  "homepage": "https://github.com/miketerry-org/ormond#readme",
+  "dependencies": {
+    "chokidar": "^4.0.3"
+  }
 }
