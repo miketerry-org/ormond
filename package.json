@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "ormond-tdd",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "Ormond: Fast & flexible testing library used for test & behavior driven development (TDD/BDD)",
   "main": "index.js",
   "bin": {
